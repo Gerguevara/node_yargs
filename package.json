@@ -1,0 +1,14 @@
+{
+  "name": "03-firststeps-node",
+  "version": "1.0.0",
+  "description": "this is a command line app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gerardo Guevara",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^15.0.2"
+  }
+}
