@@ -1,10 +1,14 @@
+const color = require('colors') //  imporsts colors dependency
 const fs = require('fs');   // import filewritew funtion
 
 // function list
 
 module.exports.list = (base,limit)=>{
+  console.log("==================".cyan);
+  console.log(`====Table: ${base}=====`.cyan);
+  console.log("==================".cyan);
   for (var i = 0; i < limit; i++) {
-    console.log(`${i} for ${base} is: ${i * base}\n`);
+    console.log(`${i} for ${base} is: ${i * base}\n`.cyan);
 
   }
 }
